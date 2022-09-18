@@ -1,0 +1,307 @@
+@charset "UTF-8";
+header {
+  position: fixed;
+  z-index: 111111111111;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #1a1a25;
+  color: white;
+  align-items: center;
+}
+header p {
+  margin-bottom: 0 !important;
+}
+header .select-control {
+  background: transparent !important;
+  border: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+  text-align: right;
+  color: #858fa4;
+}
+header .header-right p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+  /* серый / txt */
+  color: #909cb5;
+}
+header .header-right .btn {
+  transform: translateX(10px);
+  padding: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  /* Фон */
+  background: #384255;
+  border-radius: 6px;
+  color: #f7f7f7;
+}
+header .header-tels a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+  /* identical to box height */
+  color: #ffffff;
+}
+header .header-zakaz p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+  color: #f53b49;
+}
+header .header-register .btn {
+  /* txt/meny2 */
+  transform: translateX(10px);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+  color: #ffffff;
+}
+header .header-register .btn i {
+  margin-left: 10px;
+}
+header .w-60 {
+  width: 60%;
+}
+header .header-dawboard .btn {
+  display: none;
+}
+
+.header-top {
+  background: #1a1a25;
+}
+.header-top .btn-kategory {
+  background: #f53b49;
+  border-radius: 4px;
+  padding: 10px;
+  color: white;
+}
+.header-top .btn-wrap i {
+  color: rgba(133, 143, 164, 0.7);
+}
+.header-top .link-item a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration: none;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+  text-align: center;
+  color: #ffffff;
+}
+
+.header-end {
+  padding: 10px;
+  background: #1a1a25;
+}
+.header-end .select-control {
+  background: transparent;
+  border: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #ffffff;
+}
+
+.hero {
+  margin: 20px;
+}
+.hero .hero_bg {
+  height: 500px;
+  background-image: url("../../../her-bg-image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 1800px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.hero .hero-text {
+  max-width: 500px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 49.5455px;
+  line-height: 110%;
+  /* or 55px */
+  text-transform: uppercase;
+  color: #f7f7f7;
+}
+.hero .hero-text .btn {
+  border: 1px solid white !important;
+  color: white;
+}
+
+.grid {
+  margin-top: 100px;
+}
+.grid .grid-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 110%;
+  /* identical to box height, or 33px */
+  /* темно-серый */
+  color: #1a1a25;
+  margin-bottom: 30px;
+}
+.grid .grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 50%);
+}
+.grid .grid-wrapper .grid-wrap-1 {
+  display: flex;
+  justify-content: space-between;
+  z-index: -1;
+}
+.grid .grid-wrapper .grid-wrap-1 .grid-card-item-1 {
+  max-width: 330px;
+}
+.grid .grid-wrapper .grid-wrap-1 .grid-card-item-2 {
+  max-width: 330px;
+}
+.grid .grid-wrapper .grid-wrap-1 .grid-card-item-3 {
+  max-width: 330px;
+}
+.grid .grid-wrapper .grid-wrap-1 .grid-card-item-4 {
+  max-width: 330px;
+}
+.grid .grid-wrapper .grid-wrap-1 .item {
+  width: 220px !important;
+}
+.grid .btn-grid {
+  /* красный */
+  margin-top: 30px;
+  border: 1px solid #f53b49;
+  border-radius: 4px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  /* красный */
+  color: #f53b49;
+}
+
+.pop {
+  margin-top: 20px;
+}
+.pop h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 110%;
+  /* identical to box height, or 33px */
+  /* темно-серый */
+  color: #1a1a25;
+}
+
+@media only screen and (max-width: 992px) {
+  .header-dawboard {
+    color: #1a1a25;
+    background: transparent;
+    position: absolute;
+    top: 66px;
+    right: 30px;
+  }
+  .header-dawboard .btn {
+    display: block !important;
+  }
+  .header-dawboard .btn i {
+    font-size: 2rem;
+    color: white !important;
+  }
+  .link-item {
+    display: none;
+  }
+  .header-right {
+    display: none !important;
+  }
+  .align-items-center {
+    align-items: center !important;
+    margin: auto;
+  }
+  .justify-content-between {
+    margin: auto !important;
+  }
+  .align-items-center {
+    align-items: center !important;
+    margin: auto;
+    justify-content: center;
+  }
+  .align-items-center {
+    align-items: center !important;
+    margin: auto;
+    justify-content: center;
+    margin-top: 26px;
+  }
+  .grid-wrapper {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, 100%) !important;
+  }
+  .grid-wrapper .grid-wrap-1 {
+    display: flex;
+    justify-content: space-between;
+    z-index: -1;
+    width: 100%;
+    gap: 20px;
+  }
+  .grid-wrapper .grid-wrap-1 .grid-card-item-1 {
+    max-width: 330px;
+  }
+  .grid-wrapper .grid-wrap-1 .grid-card-item-2 {
+    max-width: 330px;
+  }
+  .grid-wrapper .grid-wrap-1 .grid-card-item-3 {
+    max-width: 330px;
+  }
+  .grid-wrapper .grid-wrap-1 .grid-card-item-4 {
+    max-width: 330px;
+  }
+  .grid-wrapper .grid-wrap-1 .item {
+    width: 220px !important;
+  }
+  .grid-wrapper .grid-wrap-2 {
+    gap: 30px;
+    grid-row-gap: 30px !important;
+    grid-column-gap: 30px !important;
+    text-align: center;
+  }
+  .item {
+    margin: auto;
+  }
+}
+.toggle {
+  display: block !important;
+}/*# sourceMappingURL=main.css.map */
